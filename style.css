@@ -1,1 +1,40 @@
+.lalulintas1{width:728;height:90px;background:#d5d5d5;margin:0 auto;position:relative;max-width:100%}.rambuhijau1{background:#e7e7e7;position:absolute;display:block;color:rgba(0,0,0,.2);text-align:center;text-transform:uppercase;font-size:180%;padding:10px;margin:5px;right:0;left:0;top:0;bottom:0;font-weight:700;line-height:4.4rem}
+.aiti-message { width: 77%; margin: auto; }
+.aiti_prev1{background-color: #f44336;float:left;color:#fff !important;width: 135px;}
+.aiti_next1{background-color: #f44336;float:right;color:#fff !important;width: 135px;}
 
+#aiti-page-number{
+BACKGROUND-COLOR: #ffe4c4;
+font-size: 17px;
+text-align: center;
+padding: 5px 0px;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+font-weight: bold;
+color: #ee4723;
+}
+
+@media only screen and (max-device-width: 375px) {
+.aiti_prev1{background-color: #f44336;float:left;color:#fff !important;width: 80px;}
+.aiti_next1{background-color: #f44336;float:right;color:#fff !important;width: 80px;}
+}
+
+.post-pagination {
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pag-btn {
+    font-size: 17px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    color: #FFF !important;
+    font-weight: bold;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    display: inline-block;
+}
