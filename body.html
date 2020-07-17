@@ -1,1 +1,39 @@
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<b:if cond='data:post.body contains &quot;⏩&quot;'>
+<div class='aiti-body' id='PostBody'>
+<data:post.body/>
+  </div>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<!-- only display title if it's  non-empty -->
+<b:if cond='data:post.body contains &quot;⏩&quot;'>
+  <div id='aiti-out'/><br/>
+<div class='aiti-message'>
+<i class='fa fa-map' style='color: #ee4723; font-size: 20px;'/><b>
+ Continue Reading about the  </b><b><a expr:href='data:post.url' style='font-size:18px;color:#ee4723'>&quot;<data:post.title/>&quot;</a></b><b>  on the next page below</b></div>
+<br/>
+
+<!-- code ad adsense -->
+<div class='lalulintas1'><a href='#'><span class='rambuhijau1'>ad example 1</span></a></div>
+<!-- code ad adsense -->
+
+
+
+<div class='post-pagination'>
+<div class='aiti-next-prev' id='aiti_prev'><a><div class='aiti_prev1 pag-btn'><span>« back</span></div></a></div>
+<div class='aiti-next-prev' id='aiti_next'><a><div class='aiti_next1 pag-btn'><span>next »</span></div></a></div>
+<div id='aiti-page-number'/>
+
+</div>
+
+<!-- code ad adsense  -->
+<div class='lalulintas1'><a href='#'><span class='rambuhijau1'>ad example 2</span></a></div>
+<!-- code ad adsense  -->
+  
+  
+</b:if>
+</b:if>
+  <b:else/>
+<data:post.body/>
+</b:if>
+</b:if>
 
