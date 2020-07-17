@@ -11,14 +11,15 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 <br>
 
 <b>BASIC FEATURES</b><br>
-Posts and Pages can be divided into parts with page-breaks.<br>
-Navigation captions can be edited.<br>
-Slides counter can be displayed.<br>
-Custom HTML and CSS can be added above and below post slides.<br>
+- Posts and Pages can be divided into parts with page-breaks.<br>
+- Navigation captions can be edited.<br>
+- Slides counter can be displayed.<br>
+- Custom HTML and CSS can be added above and below post slides.<br>
 
 <br>
-<b>Screenshots</b><br>
+<b>how to add the code into a blogger template.</b>
 
+<br>
 
 
 
