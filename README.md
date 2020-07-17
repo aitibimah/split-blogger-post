@@ -41,10 +41,21 @@ These are Following Steps:<br>
 ----------- Add html code to your template -----------<br>
 1- Go to Blogger Theme and Click the Edit HTML Button.<br>
 2- Click around the Code and Press Ctrl+F and Search 
-<pre><B><<data:post.body/>/></B></pre>
+<B><data:post.body/></B>
 In most blogger templates, this tag exists at least twice, or more than once.But how can we now the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow
  
 image here<br>
+
+
+
+3- Save the template and go to your website, and check one of your post to figure out the right place.
+
+in my case the right place is the third place as you can see in the image bellow.
+
+---image here---
+
+
+
 
 
 
