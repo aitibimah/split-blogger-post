@@ -19,9 +19,48 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 - Custom HTML and CSS can be added above and below post slides.<br>
 
 <br>
-<b>how to add the code into a blogger template.</b>
+<b>How to Install split-blogger-post on a Blogger template.</b>
 
 <br>
+
+Installing split-blogger-post on your Blogger website is simple! In this article, we will walk you through each step. If you prefer visual instructions, check out our video tutorial below:
+
+
+<br>
+vid here
+<br>
+
+These are Following Steps:<br>
+
+----------- Add CSS code to your template -----------
+ 1- Go to Blogger Theme and Click the Edit HTML Button.<br>
+ 2- Click around the Code and Press Ctrl+F and Search “<B>]]></b:skin></B>” tag.<br>
+ 3- then paste the code above ]]></b:skin> tag. <br>
+ 4- click the Save Template button.
+ 
+----------- Add html code to your template -----------
+1- Go to Blogger Theme and Click the Edit HTML Button.<br>
+2- Click around the Code and Press Ctrl+F and Search “<B><data:post.body/></B>” tag. In most blogger templates, this tag exists at least twice, or more than once.But how can we now the right tag that we need. you can add afetr eatch one of this tag a comment like <h1>place one</h1> like the exemple bellow
+ 
+   
+<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
+<data:post.body/>
+<h1>place one</h1>
+<div style='clear: both;'/> <!-- clear for photos floats -->
+</div>
+.
+.
+.
+.
+
+<div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id'>
+<data:post.body/>
+  <h1>place two</h1>
+<div style='clear: both;'/>
+</div>
+
+
+
 
 
 
