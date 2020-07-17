@@ -6,3 +6,8 @@ Posts and Pages can be divided into parts with page-breaks.
 Navigation captions can be edited
 Slides counter can be displayed
 Custom HTML and CSS can be added above and below post slides
+
+<br>
+<b>Screenshots</b><br>
+
+
