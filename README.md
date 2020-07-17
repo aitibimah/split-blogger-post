@@ -32,15 +32,17 @@ vid here
 
 These are Following Steps:<br>
 
------------ Add CSS code to your template -----------
+----------- Add CSS code to your template -----------<br>
  1- Go to Blogger Theme and Click the Edit HTML Button.<br>
  2- Click around the Code and Press Ctrl+F and Search “<B>]]></b:skin></B>” tag.<br>
  3- then paste the code above ]]></b:skin> tag. <br>
  4- click the Save Template button.
- 
------------ Add html code to your template -----------
+ <br>
+----------- Add html code to your template -----------<br>
 1- Go to Blogger Theme and Click the Edit HTML Button.<br>
-2- Click around the Code and Press Ctrl+F and Search “<pre><B><data:post.body/></B></pre>” tag. In most blogger templates, this tag exists at least twice, or more than once.But how can we now the right tag that we need. you can add afetr eatch one of this tag a comment like <h1>place one</h1> like the exemple bellow
+2- Click around the Code and Press Ctrl+F and Search 
+<pre><B><<data:post.body/>/></B></pre>
+In most blogger templates, this tag exists at least twice, or more than once.But how can we now the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow
  
 image here<br>
 
