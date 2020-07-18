@@ -12,10 +12,13 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 
 
 <H4>BASIC FEATURES</H4>
-- Posts and Pages can be divided into parts with page-breaks.<br>
-- Navigation captions can be edited.<br>
-- Slides counter can be displayed.<br>
-- Custom HTML and CSS can be added above and below post slides.<br>
+- Posts and Pages can be divided into parts with page-breaks.
+
+- Navigation captions can be edited.
+
+- Slides counter can be displayed.
+
+- Custom HTML and CSS can be added above and below post slides.
 
 
 <H4>How to Install split-blogger-post on a Blogger template.</H4>
@@ -32,18 +35,17 @@ These are Following Steps:<br>
 
 <h6>Add CSS code to your template</h6>
  1. Go to Blogger Theme and Click the Edit HTML Button.
+ 
  2. Click around the Code and Press Ctrl+F and Search for:  ```]]></b:skin>```
+ 
  3. then paste the code in the style.css file above:  ```]]></b:skin>```
+ 
  4. click the Save Template button.
  
 <h6>Add html code to your template</h6>
-1. Go to Blogger Theme and Click the Edit HTML Button.<br>
-2. Click around the Code and Press Ctrl+F and Search for: 
+1. Go to Blogger Theme and Click the Edit HTML Button.
 
-```
-<data:post.body/>
-```
-
+2. Click around the Code and Press Ctrl+F and Search for: ```<data:post.body/>```
 
 In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like ```<h1>place one</h1>``` like the exemple bellow.
 
