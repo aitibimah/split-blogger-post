@@ -31,28 +31,28 @@ vid here
 
 These are Following Steps:<br>
 
-<h6>Add CSS code to your template</h6><br>
+<h6>Add CSS code to your template</h6>
  1. Go to Blogger Theme and Click the Edit HTML Button.<br>
- 2. Click around the Code and Press Ctrl+F and Search "]]></b:skin>" \.<br>
- 3. then paste the code above "]]></b:skin>" tag. <br>
- 4. click the Save Template button.<br>
- <br>
- <br>
-<h6>Add html code to your template</h6><br>
+ 2. Click around the Code and Press Ctrl+F and Search ]]></b:skin> .<br>
+ 3. then paste the code above ]]></b:skin>  tag. <br>
+ 4. click the Save Template button.
+ 
+<h6>Add html code to your template</h6>
 1. Go to Blogger Theme and Click the Edit HTML Button.<br>
-2. Click around the Code and Press Ctrl+F and Search \"<data:post.body/>" \. <br><br>
-> In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.
+2. Click around the Code and Press Ctrl+F and Search \<data:post.body/> .
+
+In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.
 
 <br><br>image here<br>
 
-3. Save the template and go to your website, and check one of your post to figure out the right place.<br>
+3. Save the template and go to your website, and check one of your post to figure out the right place.
 
-in my case the right place is the third place as you can see in the image bellow.<br>
+In my case the right place is the third place as you can see in the image bellow.<br>
 
 <br><br>---image here---<br>
 
 
-4. Remove the tag \"<data:post.body/>" and replace it with the code in the body.html file.<br>
+4. Remove the tag \<data:post.body/> and replace it with the code in the body.html file.<br>
 
 
 
