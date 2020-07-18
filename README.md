@@ -25,7 +25,6 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 
 Installing split-blogger-post on your Blogger website is simple! In this article, we will walk you through each step. If you prefer visual instructions, check out our video tutorial below:
 
-
 <br>
 vid here
 <br>
@@ -41,19 +40,25 @@ These are Following Steps:<br>
 ----------- Add html code to your template -----------<br>
 1- Go to Blogger Theme and Click the Edit HTML Button.<br>
 2- Click around the Code and Press Ctrl+F and Search 
-<B><data:post.body/></B>
-In most blogger templates, this tag exists at least twice, or more than once.But how can we now the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow
+<B>"<data:post.body/>"</B>
+In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.<br>
  
 image here<br>
 
+3- Save the template and go to your website, and check one of your post to figure out the right place.<br>
+
+in my case the right place is the third place as you can see in the image bellow.<br>
+
+---image here---<br>
 
 
-3- Save the template and go to your website, and check one of your post to figure out the right place.
+4- Remove the tag "<data:post.body/>" and replace it with the code in the body.html file.<br>
 
-in my case the right place is the third place as you can see in the image bellow.
 
----image here---
+----------- Add the javascripte code to your template -----------<br>
 
+1- Click around the Code and Press Ctrl+F and Search for the close tag </body>. <br>
+2- Paste the code in the script.js file just befor the closing tag </body>. <br>
 
 
 
