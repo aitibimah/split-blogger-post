@@ -40,23 +40,22 @@ These are Following Steps:<br>
  <br>
 ----------- Add html code to your template -----------<br>
 1. Go to Blogger Theme and Click the Edit HTML Button.<br>
-2. Click around the Code and Press Ctrl+F and Search "\<data:post.body/>" .<br><br>
-In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.<br><br>
-the tag "\<data:post.body/>" and replace
+2. Click around the Code and Press Ctrl+F and Search \<data:post.body/>.<br><br>
+>In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.
 
-image here<br>
+<br><br>image here<br>
 
 3. Save the template and go to your website, and check one of your post to figure out the right place.<br>
 
 in my case the right place is the third place as you can see in the image bellow.<br>
 
----image here---<br>
+<br><br>---image here---<br>
 
 
-4. Remove the tag "\<data:post.body/>" and replace it with the code in the body.html file.<br>
+4. Remove the tag \<data:post.body/> and replace it with the code in the body.html file.<br>
 
 
-the tag "\<data:post.body/>" and replace
+
 ----------- Add the javascripte code to your template -----------<br>
 
 1. Click around the Code and Press Ctrl+F and Search for the close tag \</body>. <br>
