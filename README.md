@@ -61,6 +61,9 @@ That’s it, you just debugged your code to find out which  ```<data:post.body/>
 
 3. Remove the tag ```<data:post.body/>``` and replace it with the code in the body.html file.
 
+Just don’t forget to remove all the ```<h1></h1>``` tags you used for debugging.
+
+
 <h6>Add the javascripte code to your template</h6>
 
 1. Click around the Code and Press Ctrl+F and Search for the close tag ```</body>```. <br>
