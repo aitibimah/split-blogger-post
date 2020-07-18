@@ -12,6 +12,7 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 
 
 <H4>BASIC FEATURES</H4>
+
 - Posts and Pages can be divided into parts with page-breaks.
 
 - Navigation captions can be edited.
@@ -34,6 +35,7 @@ vid here
 These are Following Steps:<br>
 
 <h6>Add CSS code to your template</h6>
+
  1. Go to Blogger Theme and Click the Edit HTML Button.
  
  2. Click around the Code and Press Ctrl+F and Search for:  ```]]></b:skin>```
@@ -44,7 +46,6 @@ These are Following Steps:<br>
  
 <h6>Add html code to your template</h6>
 1. Go to Blogger Theme and Click the Edit HTML Button.
-
 2. Click around the Code and Press Ctrl+F and Search for: ```<data:post.body/>```
 
 In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like ```<h1>place one</h1>``` like the exemple bellow.
@@ -63,9 +64,10 @@ image here
 
 4. Remove the tag ```<data:post.body/>``` and replace it with the code in the body.html file.
 
-<h6>Add the javascripte code to your template</h6><br>
+<h6>Add the javascripte code to your template</h6>
 
 1. Click around the Code and Press Ctrl+F and Search for the close tag ```</body>```. <br>
+
 2. Paste the code in the script.js file just befor the closing tag ```</body>```. <br>
 
 
