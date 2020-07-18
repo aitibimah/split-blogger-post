@@ -31,14 +31,14 @@ vid here
 
 These are Following Steps:<br>
 
------------ Add CSS code to your template -----------<br>
+<h6>Add CSS code to your template</h6><br>
  1. Go to Blogger Theme and Click the Edit HTML Button.<br>
  2. Click around the Code and Press Ctrl+F and Search "\]]></b:skin>" tag.<br>
  3. then paste the code above ]]></b:skin> tag. <br>
  4. click the Save Template button.<br>
  <br>
  <br>
------------ Add html code to your template -----------<br>
+<h6>Add html code to your template</h6><br>
 1. Go to Blogger Theme and Click the Edit HTML Button.<br>
 2. Click around the Code and Press Ctrl+F and Search \<data:post.body/>.<br><br>
 >In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.
@@ -56,7 +56,7 @@ in my case the right place is the third place as you can see in the image bellow
 
 
 
------------ Add the javascripte code to your template -----------<br>
+<h6>Add the javascripte code to your template</h6><br>
 
 1. Click around the Code and Press Ctrl+F and Search for the close tag \</body>. <br>
 2. Paste the code in the script.js file just befor the closing tag \</body>. <br>
