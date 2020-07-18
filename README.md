@@ -40,7 +40,7 @@ These are Following Steps:<br>
  <br>
 ----------- Add html code to your template -----------<br>
 1. Go to Blogger Theme and Click the Edit HTML Button.<br>
-2. Click around the Code and Press Ctrl+F and Search "\<data:post.body/>".<br><br>
+2. Click around the Code and Press Ctrl+F and Search "\<data:post.body/>" .<br><br>
 In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like "place one" like the exemple bellow.<br><br>
 
 image here<br>
