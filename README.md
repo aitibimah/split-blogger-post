@@ -45,7 +45,9 @@ These are Following Steps:<br>
  4. click the Save Template button.
  
 <h6>Add html code to your template</h6>
+
 1. Go to Blogger Theme and Click the Edit HTML Button.
+
 2. Click around the Code and Press Ctrl+F and Search for: ```<data:post.body/>```
 
 In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like ```<h1>place one</h1>``` like the exemple bellow.
