@@ -32,13 +32,11 @@ These are Following Steps:<br>
 
 <h6>Add CSS code to your template</h6>
  1. Go to Blogger Theme and Click the Edit HTML Button.
- 2. Click around the Code and Press Ctrl+F and Search for: ```]]></b:skin>```
+ 2. Click around the Code and Press Ctrl+F and Search for: ```]]></b:skin>``` 
  
  3. then paste the code in the style.css file above: 
  
- ```
- ]]></b:skin>
- ```
+ ```]]></b:skin>```
  4. click the Save Template button.
  
 <h6>Add html code to your template</h6>
