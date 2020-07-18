@@ -50,21 +50,16 @@ These are Following Steps:<br>
 
 2. Click around the Code and Press Ctrl+F and Search for: ```<data:post.body/>```
 
-In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need. you can add afetr eatch one of this tag a comment like ```<h1>place one</h1>``` like the exemple bellow.
+In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need.
 
-```
-image here
-```
+If you have multiple <data:post.body/> in your template then, before each of those <data:post.body/> tag write this <h1>First place</h1>, here ‘First’ is for the first <data:post.body/>, write ‘Second’ for the second <data:post.body/> and so on. Now save your template.
 
-3. Save the template and go to your website, and check one of your post to figure out the right place.
-In my case the right place is the third place as you can see in the image bellow.<br>
+After saving is complete, go to your blog and notice which <h1 /> tag is appearing before your post body. If ‘First’ is appearing then the first <data:post.body/> is the actual <data:post.body/>.
 
-```
-image here
-```
+That’s it, you just debugged your code to find out which <data:post.body/> is the actual one working. Now go back to your template code editor and again find all those <data:post.body/> and remove the <h1></h1> tag you added to debug, but only before the actual <data:post.body/>, write something like <!– POST BODY HERE –>, a comment, so that to use it the next step.
 
 
-4. Remove the tag ```<data:post.body/>``` and replace it with the code in the body.html file.
+3. Remove the tag ```<data:post.body/>``` and replace it with the code in the body.html file.
 
 <h6>Add the javascripte code to your template</h6>
 
