@@ -52,11 +52,11 @@ These are Following Steps:<br>
 
 In the most blogger templates, this tag exists at least twice, or more than once. But how can we find the right tag that we need.
 
-If you have multiple <data:post.body/> in your template then, before each of those <data:post.body/> tag write this <h1>First place</h1>, here ‘First’ is for the first <data:post.body/>, write ‘Second’ for the second <data:post.body/> and so on. Now save your template.
+If you have multiple  ```<data:post.body/>```  in your template then, before each of those  ```<data:post.body/>```  tag write this  ```<h1>First place</h1>``` , here ‘First’ is for the first  ```<data:post.body/>``` , write ‘Second’ for the second  ```<data:post.body/>```  and so on. Now save your template.
 
-After saving is complete, go to your blog and notice which <h1 /> tag is appearing before your post body. If ‘First’ is appearing then the first <data:post.body/> is the actual <data:post.body/>.
+After saving is complete, go to your blog and notice which  ```<h1 />```  tag is appearing before your post body. If ‘First’ is appearing then the first  ```<data:post.body/>```  is the actual  ```<data:post.body/>``` .
 
-That’s it, you just debugged your code to find out which <data:post.body/> is the actual one working. Now go back to your template code editor and again find all those <data:post.body/> and remove the <h1></h1> tag you added to debug, but only before the actual <data:post.body/>, write something like <!– POST BODY HERE –>, a comment, so that to use it the next step.
+That’s it, you just debugged your code to find out which  ```<data:post.body/>```  is the actual one working. Now go back to your template code editor and again find all those  ```<data:post.body/>```  and remove the  ```<h1></h1>```  tag you added to debug, but only before the actual  ```<data:post.body/>``` , write something like  ```<!– POST BODY HERE –>``` , a comment, so that to use it the next step.
 
 
 3. Remove the tag ```<data:post.body/>``` and replace it with the code in the body.html file.
