@@ -28,7 +28,7 @@ Demo : https://nextprev-preview.blogspot.com/2018/11/test-post.html
 Installing split-blogger-post on your Blogger website is simple! In this article, we will walk you through each step. If you prefer visual instructions, check out our video tutorial below:
 
 ```
-vid here
+...
 ```
 
 
